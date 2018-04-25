@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Students.models.TPC
 {
-    public abstract class StudentTPC
+    public class FullStudentTPC : StudentTPC
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public int Age { get; set; }
+        public string FullStudentField { get; set; }
     }
 }

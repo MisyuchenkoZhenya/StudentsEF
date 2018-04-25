@@ -49,7 +49,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="context\TPC\ContextTPC.cs" />
+    <Compile Include="context\TPH\ContextTPH.cs" />
+    <Compile Include="context\TPT\ContextTPT.cs" />
+    <Compile Include="models\TPC\FullStudentTPC.cs" />
+    <Compile Include="models\TPC\PartStudentTPC.cs" />
     <Compile Include="models\TPC\StudentTPC.cs" />
+    <Compile Include="models\TPH\FullStudentTPH.cs" />
+    <Compile Include="models\TPH\PartStudentTPH.cs" />
+    <Compile Include="models\TPH\StudentTPH.cs" />
+    <Compile Include="models\TPT\FullStudentTPT.cs" />
+    <Compile Include="models\TPT\PartStudentTPT.cs" />
+    <Compile Include="models\TPT\StudentTPT.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -57,12 +68,6 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="context\TPC\" />
-    <Folder Include="context\TPH\" />
-    <Folder Include="context\TPT\" />
-    <Folder Include="models\TPH\" />
-    <Folder Include="models\TPT\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

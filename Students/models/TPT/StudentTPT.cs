@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Students.models.TPC
+namespace Students.models.TPT
 {
-    public abstract class StudentTPC
+    public abstract class StudentTPT
     {
         public int Id { get; set; }
         public string Name { get; set; }
